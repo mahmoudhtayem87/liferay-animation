@@ -7,4 +7,5 @@ The project contains a fragment collection which has 3 main fragments:
 - **Animation Container**: You will need to use this fragment as a container of liferay element (widget/fragment) which you would like to apply the animation on it.
 
 ###Note! 
-_Please note that the required **JS** and **CSS** has been added to the collection resources_
+- _Please note that the required **JS** and **CSS** has been added to the collection resources_
+- _Please make sure to enable JQuery from **Liferay** -> **System Settings** -> **Third Party** -> **JQuery**_
