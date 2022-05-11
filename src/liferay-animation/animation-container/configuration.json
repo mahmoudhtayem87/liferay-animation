@@ -1,0 +1,279 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "animation",
+          "label": "Animation Type",
+          "description": "",
+          "type": "select",
+          "dataType": "string",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "fade",
+                "label": "Fade"
+              },
+              {
+                "value": "fade-up",
+                "label": "Fade up"
+              },
+              {
+                "value": "fade-down",
+                "label": "Fade down"
+              },
+              {
+                "value": "fade-left",
+                "label": "Fade left"
+              },
+              {
+                "value": "fade-right",
+                "label": "Fade right"
+              },
+              {
+                "value": "fade-up-left",
+                "label": "Fade up left"
+              },
+              {
+                "value": "fade-down-right",
+                "label": "Fade down right"
+              },
+              {
+                "value": "fade-down-left",
+                "label": "Fade down left"
+              },
+              {
+                "value": "flip-up",
+                "label": "Flip up"
+              },
+              {
+                "value": "flip-down",
+                "label": "Flip down"
+              },
+              {
+                "value": "flip-left",
+                "label": "Flip left"
+              },
+              {
+                "value": "flip-right",
+                "label": "Flip right"
+              },
+              {
+                "value": "slide-up",
+                "label": "Slide up"
+              },
+              {
+                "value": "slide-down",
+                "label": "Slide down"
+              },
+              {
+                "value": "slide-left",
+                "label": "Slide left"
+              },
+              {
+                "value": "slide-right",
+                "label": "Slide right"
+              },
+              {
+                "value": "zoom-in",
+                "label": "Zoom in"
+              },
+              {
+                "value": "zoom-in-up",
+                "label": "Zoom in up"
+              },
+              {
+                "value": "zoom-in-down",
+                "label": "Zoom in down"
+              },
+              {
+                "value": "zoom-in-left",
+                "label": "zoom in left"
+              },
+              {
+                "value": "zoom-in-right",
+                "label": "Zoom in right"
+              },
+              {
+                "value": "zoom-out",
+                "label": "Zoom out"
+              },
+              {
+                "value": "zoom-out-up",
+                "label": "Zoom out up"
+              },
+              {
+                "value": "zoom-out-down",
+                "label": "Zoom out down"
+              },
+              {
+                "value": "zoom-out-left",
+                "label": "Zoom out left"
+              },
+              {
+                "value": "zoom-out-right",
+                "label": "Zoom out right"
+              }
+            ]
+          },
+          "defaultValue": "fade-up-right"
+        },
+        {
+          "name": "placement",
+          "label": "Anchor placements",
+          "description": "",
+          "type": "select",
+          "dataType": "string",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "top-bottom",
+                "label": "Top Bottom"
+              },
+              {
+                "value": "top-center",
+                "label": "Top Center"
+              },
+              {
+                "value": "top-top",
+                "label": "Top"
+              },
+              {
+                "value": "center-bottom",
+                "label": "Center Bottom"
+              },
+              {
+                "value": "center-top",
+                "label": "Center Top"
+              },
+              {
+                "value": "center-center",
+                "label": "Center"
+              },
+              {
+                "value": "bottom-top",
+                "label": "Bottom Top"
+              },
+              {
+                "value": "bottom-bottom",
+                "label": "Bottom"
+              },
+              {
+                "value": "bottom-center",
+                "label": "Bottom Center"
+              }
+            ]
+          },
+          "defaultValue": "Bottom Center"
+        },
+        {
+          "name": "easingFunctions",
+          "label": "Easing Functions",
+          "description": "",
+          "type": "select",
+          "dataType": "string",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "linear",
+                "label": "Linear"
+              },  {
+                "value": "ease",
+                "label": "Ease"
+              },  {
+                "value": "ease-in",
+                "label": "Ease in"
+              },  {
+                "value": "ease-out",
+                "label": "Ease out"
+              },  {
+                "value": "ease-in-out",
+                "label": "Ease in out"
+              },{
+                "value": "ease-in-back",
+                "label": "Ease in back"
+              },{
+                "value": "ease-out-back",
+                "label": "Ease out back"
+              },{
+                "value": "ease-in-out-back",
+                "label": "Ease in out back"
+              },{
+                "value": "ease-in-sine",
+                "label": "Ease in sine"
+              },{
+                "value": "ease-out-sine",
+                "label": "Ease out sine"
+              },{
+                "value": "ease-in-out-sine",
+                "label": "Ease in out sine"
+              },{
+                "value": "ease-in-quad",
+                "label": "Ease in quad"
+              }
+            ,{
+                "value": "ease-out-quad",
+                "label": "Ease out quad"
+              }  ,{
+                "value": "ease-in-out-quad",
+                "label": "Ease in out quad"
+              } ,{
+                "value": "ease-in-cubic",
+                "label": "Ease in cubic"
+              } ,{
+                "value": "ease-out-cubic",
+                "label": "Ease out cubic"
+              },{
+                "value": "ease-in-out-cubic",
+                "label": "Ease in out cubic"
+              },{
+                "value": "ease-in-quart",
+                "label": "Ease in quart"
+              },{
+                "value": "ease-out-quart",
+                "label": "Ease out quart"
+              },{
+                "value": "ease-in-out-quart",
+                "label": "Ease in out quart"
+              }
+            ]
+          },
+          "defaultValue": "Bottom Center"
+        },
+        {
+          "name": "offset",
+          "label": "Animation Offset",
+          "description": "button-text",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "10"
+          },
+          "dataType": "string",
+          "defaultValue": "10"
+        },
+        {
+          "name": "delay",
+          "label": "Animation Delay",
+          "description": "button-text",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "50"
+          },
+          "dataType": "string",
+          "defaultValue": "50"
+        },
+        {
+          "name": "duration",
+          "label": "Animation Duration",
+          "description": "button-text",
+          "type": "text",
+          "typeOptions": {
+            "placeholder": "1000"
+          },
+          "dataType": "string",
+          "defaultValue": "1000"
+        }
+      ]
+    }
+  ]
+}

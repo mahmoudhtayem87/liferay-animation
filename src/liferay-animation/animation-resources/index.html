@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="[resources:aos.css]">
+<script src="[resources:aos.js]"></script>
+<script>
+  $(document).ready(function(){
+    var urlParams = new URLSearchParams(window.location.search);
+    if(!urlParams.has('p_l_mode'))
+    {
+      AOS.init();
+    }else
+    {
+      $("[data-aos]").each(function(){
+        $(this).addClass("no-animation");
+      });
+    }
+  });
+</script>
