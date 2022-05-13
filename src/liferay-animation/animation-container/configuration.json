@@ -164,7 +164,7 @@
               }
             ]
           },
-          "defaultValue": "Bottom Center"
+          "defaultValue": "top-bottom"
         },
         {
           "name": "easingFunctions",
@@ -238,7 +238,7 @@
               }
             ]
           },
-          "defaultValue": "Bottom Center"
+          "defaultValue": "ease-in-out-quart"
         },
         {
           "name": "offset",
